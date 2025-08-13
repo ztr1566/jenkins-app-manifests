@@ -15,7 +15,7 @@ spec:
       containers:
       - name: web-server
         # !!! ده السطر المهم، متنساش تغير الـ Account ID !!!
-        image: 826568078815.dkr.ecr.us-east-1.amazonaws.com/my-ubuntu-app:11
+        image: 826568078815.dkr.ecr.us-east-1.amazonaws.com/my-ubuntu-app:12
         ports:
         - containerPort: 80
         resources:
